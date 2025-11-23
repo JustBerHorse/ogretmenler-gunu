@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #07101b, #061017);
+  position: relative;
+}
+
+canvas#garden {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.message {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+  color: #ff71a1;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff71a1, 0 0 30px #ff2a7b;
+  pointer-events: none;
+  z-index: 10;
+}
